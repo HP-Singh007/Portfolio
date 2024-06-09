@@ -78,7 +78,7 @@ export const PROJECTS = [
     images: [project5a,project5b,project5c,project5d,project5e,project5f],
     link:"https://movietime-hps.netlify.app",
     description:
-      "A Simple Movie App with features of search, Rating, Cast, Box Office Collection, Genre etc. It fetches an API from OBDB.org",
+      "A Simple Movie App with features of search, Rating, Cast, Box Office Collection, Genre etc. It fetches an API from OMDB.org",
     technologies:  ["HTML", "CSS", "JavaScript"],
   },
   {
@@ -86,7 +86,7 @@ export const PROJECTS = [
     images: [project6a],
     link:"https://snakemania-hps.netlify.app",
     description:
-      "A nostalgic snake game of nokio mobile phone built with simple javascript and html",
+      "A nostalgic snake game of nokia mobile phone built with simple javascript and html",
     technologies:  ["HTML", "CSS", "JavaScript"],
   },
   {
