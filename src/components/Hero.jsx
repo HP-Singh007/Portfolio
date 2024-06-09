@@ -13,7 +13,7 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="pb-5 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
+              className="pb-5 text-5xl font-thin tracking-tight pt-45 lg:mt-16 lg:text-7xl"
             >
               Harmanpreet Singh
             </motion.h1>
@@ -29,7 +29,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 1.2 }}
-              className=" text-2xl my-10 max-w-xl py-10 font-light tracking-tighter font-lucid"
+              className=" text-1xl lg:text-2xl my-10 max-w-xl lg:py-10 font-light tracking-tighter font-lucid "
             >
               {HERO_CONTENT}
             </motion.p>
@@ -41,7 +41,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="rounded-full"
+              className="rounded-full p-10 lg:p-0"
               src={profile}
               alt="profile"
             />

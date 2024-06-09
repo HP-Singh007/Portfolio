@@ -31,7 +31,7 @@ const Projects = () => {
                   <img
                     src={img}
                     alt={project.title}
-                    className="w-full mb-6 rounded"
+                    className="w-full lg:mb-6 rounded"
                   />
                 ))}
               </Carousel>
@@ -40,7 +40,7 @@ const Projects = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.2 }}
-              className="w-full max-w-xl lg:w-2/3"
+              className="w-full mt-10 lg:mt-0 max-w-xl lg:w-2/3"
             >
               <a href={project.link} target="_blank"  className="mb-2 border-b border-orange-400 font-semibold text-2xl text-orange-400">{project.title}</a>
               <p className="mb-4 mt-4 text-neutral-400">{project.description}</p>
