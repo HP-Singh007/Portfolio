@@ -38,14 +38,14 @@ const Skills = () => {
       >
         Skills
       </motion.h2>
-      <motion.div initial={{x:-200,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.5}} className="flex flex-wrap items-center justify-center gap-0.5 lg:gap-4">
+      <motion.div initial={{x:-200,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.5}} className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiHtml5Fill className="text-7xl text-orange-400" />
+          <RiHtml5Fill className=" text-5xl lg:text-7xl text-orange-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -53,7 +53,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <IoLogoCss3 className="text-7xl text-blue-400" />
+          <IoLogoCss3 className=" text-5xl lg:text-7xl text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -61,7 +61,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <IoLogoJavascript className="text-7xl text-yellow-400" />
+          <IoLogoJavascript className=" text-5xl lg:text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -69,7 +69,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className=" text-5xl lg:text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -77,7 +77,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNode className="text-7xl text-green-400" />
+          <FaNode className=" text-5xl lg:text-7xl text-green-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(1)}
@@ -85,7 +85,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiExpress className="text-7xl text-grey-400" />
+          <SiExpress className=" text-5xl lg:text-7xl text-grey-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -93,7 +93,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-400" />
+          <SiMongodb className=" text-5xl lg:text-7xl text-green-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -101,7 +101,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiPostman className="text-7xl text-orange-400 bg-white rounded-full" />
+          <SiPostman className=" text-5xl lg:text-7xl text-orange-400 bg-white rounded-full" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -109,7 +109,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMysql className="text-7xl text-blue-400" />
+          <SiMysql className=" text-5xl lg:text-7xl text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -117,7 +117,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaGitAlt className="text-7xl text-red-400" />
+          <FaGitAlt className=" text-5xl lg:text-7xl text-red-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -125,7 +125,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaGithub className="text-7xl text-grey-400" />
+          <FaGithub className=" text-5xl lg:text-7xl text-grey-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(7)}
@@ -133,7 +133,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandCpp className="text-7xl text-yellow-400" />
+          <TbBrandCpp className=" text-5xl lg:text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(1)}
@@ -141,7 +141,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaJava className="text-7xl text-blue-400" />
+          <FaJava className=" text-5xl lg:text-7xl text-blue-400" />
         </motion.div>
       </motion.div>
     </div>

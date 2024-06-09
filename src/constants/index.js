@@ -47,7 +47,7 @@ export const PROJECTS = [
     link:"https://hp-singh007.github.io/EMart",
     description:
       "E-commerce application with user authentication, including password recovery and OTP verification. Features include a shopping cart, product filtering, sorting, search, and user profile management.The admin dashboard allows for product management, monthly sales statistics, and inventory tracking.",
-    technologies: ["React", "CSS", "Node,js", "Express.js", "MongoDB"],
+    technologies: ["React", "CSS", "Node,js", "MongoDB"],
   },
   {
     title: "To Do App",
@@ -55,7 +55,7 @@ export const PROJECTS = [
     link:"https://hp-singh007.github.io/To-do-React",
     description:
       "A Simple TO-DO app with user authentication and cookies to ensure a personalized user experience.The frontend is built with React.js, providing a responsive and interactive interface for managing tasks. The backend, powered by Node.js, handles user authentication and data storage efficiently. This web application allows users to securely create, edit, and delete their to-do items, helping them stay organized and productive. It uses cookie-based authentication to save user data",
-    technologies:  ["React", "CSS", "Node,js", "Express.js", "MongoDB"],
+    technologies:  ["React", "CSS", "Node,js", "MongoDB"],
   },
   {
     title: "News Worldwide",
