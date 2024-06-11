@@ -33,12 +33,12 @@ const Skills = () => {
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
         className="my-20 text-center text-5xl"
       >
         Skills
       </motion.h2>
-      <motion.div initial={{x:-200,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.5}} className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
+      <motion.div initial={{x:-200,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.2}} className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
         <motion.div
           variants={iconVariants(2)}
           initial="initial"

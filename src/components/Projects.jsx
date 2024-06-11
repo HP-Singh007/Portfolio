@@ -9,7 +9,7 @@ const Projects = () => {
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
         className="my-20 text-center text-5xl text-pink-400"
       >
         Projects
@@ -23,7 +23,7 @@ const Projects = () => {
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.2 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
               className="w-full lg:w-1/3"
             >
               <Carousel indicators={false}>
