@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 p-4" id="projectSection">
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -18,7 +18,7 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-40 my-10 flex flex-wrap lg:justify-around"
+            className="mb-20 lg:mb-40 my-10 flex flex-wrap lg:justify-around"
           >
             <motion.div
               initial={{ x: -100, opacity: 0 }}
@@ -31,7 +31,7 @@ const Projects = () => {
                   <img
                     src={img}
                     alt={project.title}
-                    className="w-full lg:mb-6 rounded"
+                    className="w-full mb-0 lg:mb-6 rounded"
                   />
                 ))}
               </Carousel>
