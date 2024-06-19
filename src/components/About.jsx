@@ -31,7 +31,7 @@ const About = () => {
             <motion.p initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.7, delay:0.5}} className="my-2 maxw-xl text-1xl lg:text-2xl py-6 font-sans font-extralight">{ABOUT_TEXT}</motion.p>
           </div>
           <div className="flex justify-center py-5 lg:py-8">
-            <motion.a initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.8}} className="p-2 text-white-100 bg-pink-800 rounded-1xl text-2xl flex justify-center items-center gap-3" href={resume} download="Resume-Harman">Resume <IoMdDownload/></motion.a>
+            <motion.a initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.8}} className="p-2 text-white-100 bg-pink-800 rounded-full text-2xl flex justify-center items-center gap-3" href={resume} download="Resume-Harman">Resume <IoMdDownload/></motion.a>
           </div>
         </div>
       </div>

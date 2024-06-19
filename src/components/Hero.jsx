@@ -2,6 +2,9 @@ import React from "react";
 import profile from "../assets/profile.jpg";
 import { HERO_CONTENT } from "../constants/index";
 import { motion } from "framer-motion";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -13,15 +16,16 @@ const Hero = () => {
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="pb-5 text-5xl font-thin tracking-tight pt-45 lg:mt-16 lg:text-7xl"
+              className="pb-5 text-3xl font-mono font-thick tracking-tight pt-45 lg:mt-10 lg:text-7xl"
             >
-              Harmanpreet Singh
+              Hello I'm
+              <p className="text-orange-400 ">Harmanpreet Singh</p>
             </motion.h1>
             <motion.span
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 1 }}
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl lg:text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>
@@ -29,10 +33,32 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 1.2 }}
-              className=" text-1xl lg:text-2xl my-10 max-w-xl lg:py-10 font-extralight tracking-tight font-sans italic"
+              className=" text-1xl lg:text-2xl my-5 max-w-xl lg:py-2 font-extralight tracking-tight font-sans italic"
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.div
+              className="mx-32 flex items-center justify-center gap-10 text-3xl"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: 1.2 }}
+            >
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/harmanpreet-singh-ba33b4229"
+              >
+                <FaLinkedin className="hover:text-blue-400" />
+              </a>
+              <a target="_blank" href="https://github.com/HP-Singh007">
+                <FaGithub className="hover:text-red-400" />
+              </a>
+              <a
+                target="_blank"
+                href="https://leetcode.com/u/Harman_preet_Singh/"
+              >
+                <SiLeetcode className="hover:text-orange-400" />
+              </a>
+            </motion.div>
           </div>
         </div>
         <div className="w-full p-50 lg:w-1/3 lg:p-10">
@@ -44,7 +70,7 @@ const Hero = () => {
               className="p-10 lg:p-0 rounded-full"
               src={profile}
               alt="profile"
-              id='profileImg'
+              id="profileImg"
             />
           </div>
         </div>
