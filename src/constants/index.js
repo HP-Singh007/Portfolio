@@ -9,6 +9,10 @@ import project2a from "../assets/projects/project-2a.png";
 import project2b from "../assets/projects/project-2b.png";
 import project2c from "../assets/projects/project-2c.png";
 import project2d from "../assets/projects/project-2d.png";
+import project2e from "../assets/projects/project-2e.png";
+import project2f from "../assets/projects/project-2f.png";
+import project2g from "../assets/projects/project-2g.png";
+import project2h from "../assets/projects/project-2h.png";
 import project3a from "../assets/projects/project-3a.png";
 import project3b from "../assets/projects/project-3b.png";
 import project3c from "../assets/projects/project-3c.png";
@@ -51,7 +55,7 @@ export const PROJECTS = [
   },
   {
     title: "To Do App",
-    images:[project2a,project2b,project2c,project2d],
+    images:[project2a,project2b,project2c,project2d,project2e,project2f,project2g,project2h],
     link:"https://hp-singh007.github.io/To-do-React",
     description:
       "A Simple TO-DO app with user authentication and cookies to ensure a personalized user experience.The frontend is built with React.js, providing a responsive and interactive interface for managing tasks. The backend, powered by Node.js, handles user authentication and data storage efficiently. This web application allows users to securely create, edit, and delete their to-do items, helping them stay organized and productive. It uses cookie-based authentication to save user data",
