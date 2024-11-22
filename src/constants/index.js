@@ -39,6 +39,8 @@ import project9a from "../assets/projects/project-9a.png";
 import project9b from "../assets/projects/project-9b.png";
 import project9c from "../assets/projects/project-9c.png";
 import project9d from "../assets/projects/project-9d.png";
+import project10a from "../assets/projects/project-10a.png";
+import project10b from "../assets/projects/project-10b.png";
 
 export const HERO_CONTENT = `Hello! I am a passionate Computer Science student currently in my 7th semester at Guru Nanak Dev University (GNDU), Amritsar. I am dedicated to building a strong foundation for a successful career in the tech industry.`;
 
@@ -52,6 +54,14 @@ export const PROJECTS = [
     description:
       "E-commerce application with user authentication, including password recovery and OTP verification. Features include a shopping cart, product filtering, sorting, search, and user profile management.The admin dashboard allows for product management, monthly sales statistics, and inventory tracking.",
     technologies: ["React", "CSS", "Node,js", "MongoDB"],
+  },
+  {
+    title: "Code-Collab",
+    images: [project10a,project10b],
+    link:"https://codeeditor-production-2417.up.railway.app",
+    description:
+      "A real-time collaborative code editor. Users can create dedicated rooms to collaborate on code seamlessly with friends. The platform supports real-time updates, ensuring synchronized editing",
+    technologies: ["React", "CSS", "Node,js", "Web-socket"],
   },
   {
     title: "To Do App",
