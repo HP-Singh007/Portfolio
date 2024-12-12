@@ -58,7 +58,7 @@ export const PROJECTS = [
   {
     title: "Code-Collab",
     images: [project10a,project10b],
-    link:"https://codeeditor-production-2417.up.railway.app",
+    link:"https://codeeditor-li8u.onrender.com",
     description:
       "A real-time collaborative code editor. Users can create dedicated rooms to collaborate on code seamlessly with friends. The platform supports real-time updates, ensuring synchronized editing",
     technologies: ["React", "CSS", "Node,js", "Web-socket"],
