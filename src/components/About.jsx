@@ -30,7 +30,7 @@ const About = () => {
             <motion.p initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.7, delay:0.5}} className="my-2 maxw-xl text-1xl lg:text-2xl lg:px-10 py-6 font-sans font-extralight">{ABOUT_TEXT}</motion.p>
           </div>
           <div className="flex justify-center py-5 lg:py-8">
-            <motion.a initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.8}} className="p-2 text-white-100 bg-pink-800 rounded-full text-2xl flex justify-center items-center gap-3" href="https://drive.google.com/file/d/1ZUWlONKtAf9GtL1oPOzP9On0RCKC6tSf/view?usp=drive_link" target="_blank" download="Resume-Harman">Resume <IoMdDownload/></motion.a>
+            <motion.a initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.8}} className="p-2 text-white-100 bg-pink-800 rounded-full text-2xl flex justify-center items-center gap-3" href="https://drive.google.com/file/d/1ZohbzdML11NhqXtgr7zBYV97-HF1TGrq/view?usp=sharing" target="_blank" download="Resume-Harman">Resume <IoMdDownload/></motion.a>
           </div>
         </div>
       </div>

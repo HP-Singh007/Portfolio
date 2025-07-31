@@ -1,10 +1,11 @@
 import React from "react";
 import profile from "../assets/profile.jpg";
-import { HERO_CONTENT } from "../constants/index";
+import { HERO_CONTENT } from "../constants/index.jsx";
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
@@ -27,7 +28,14 @@ const Hero = () => {
               transition={{ duration: 0.7, delay: 1 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              <Typewriter words={['Full Stack Developer - MERN', 'Identity and Access Management','CyberSecurity']}
+              loop={5}
+              cursor
+              cursorStyle='_'
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={2000}
+              />
             </motion.span>
             <motion.p
               initial={{ opacity: 0 }}

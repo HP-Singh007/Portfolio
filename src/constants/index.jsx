@@ -42,9 +42,9 @@ import project9d from "../assets/projects/project-9d.png";
 import project10a from "../assets/projects/project-10a.png";
 import project10b from "../assets/projects/project-10b.png";
 
-export const HERO_CONTENT = `Hello! I am a passionate Computer Science student currently in my 7th semester at Guru Nanak Dev University (GNDU), Amritsar. I am dedicated to building a strong foundation for a successful career in the tech industry.`;
+export const HERO_CONTENT = `Hello! I am a passionate Computer Science graduate from Guru Nanak Dev University (GNDU), Amritsar. I am dedicated to building a strong foundation for a successful career in the tech industry.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL, and MongoDB. I have experience of working with languages like C++ and Java and enjoys solving complex DSA problems on Leetcode. Currenlty I am in my 7th semester at Guru Nanak Dev University situated in Amritsar where I have maintained GPA of 9.26.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL, and MongoDB. I also have hands-on-experience in Identity and Access Management (IAM) tools - Okta, Sailpoint, CyberArk, ServiceNow. I have experience of working with languages like C++ and Java and enjoys solving complex DSA problems on Leetcode. I have completed my graduation from Guru Nanak Dev University situated in Amritsar with CGPA of 9.54.`;
 
 export const PROJECTS = [
   {

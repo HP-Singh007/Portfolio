@@ -13,6 +13,10 @@ import { FaGithub } from "react-icons/fa6";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaJava } from "react-icons/fa";
 import { motion } from "framer-motion";
+import okta from "../assets/okta.svg"
+import sailpoint from "../assets/sailpoint.svg"
+import cyberark from "../assets/cyberark.svg"
+import servicenow from "../assets/servicenow.jpeg"
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -40,12 +44,49 @@ const Skills = () => {
       </motion.h2>
       <motion.div initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:1,delay:0.2}} className="flex flex-wrap items-center justify-center gap-2 lg:gap-4">
         <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img src={okta} width="73" />
+          <div><center>Okta</center></div>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img src={sailpoint} width="73" />
+          <div><center>Sailpoint</center></div>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+           <img src={cyberark} width="65" />
+           <div><center>CyberArk</center></div>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+           <center><img src={servicenow} width="70" /></center>
+           <div><center>ServiceNow</center></div>
+        </motion.div>
+        <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiHtml5Fill className=" text-5xl lg:text-7xl text-orange-400" />
+          <div><center>HTML</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -54,6 +95,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <IoLogoCss3 className=" text-5xl lg:text-7xl text-blue-400" />
+          <div><center>CSS</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -62,6 +104,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <IoLogoJavascript className=" text-5xl lg:text-7xl text-yellow-400" />
+          <div><center>JavaScript</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -70,6 +113,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiReactjsLine className=" text-5xl lg:text-7xl text-cyan-400" />
+          <div><center>ReactJS</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -78,6 +122,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNode className=" text-5xl lg:text-7xl text-green-400" />
+          <div><center>NodeJS</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(1)}
@@ -86,6 +131,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiExpress className=" text-5xl lg:text-7xl text-grey-400" />
+          <div><center>Express.js</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -94,6 +140,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiMongodb className=" text-5xl lg:text-7xl text-green-400" />
+          <div><center>Mongo DB</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -102,6 +149,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiPostman className=" text-5xl lg:text-7xl text-orange-400 bg-white rounded-full" />
+          <div><center>Postman</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -110,6 +158,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiMysql className=" text-5xl lg:text-7xl text-blue-400" />
+          <div><center>MySQL</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -118,6 +167,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaGitAlt className=" text-5xl lg:text-7xl text-red-400" />
+          <div><center>Git</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -126,6 +176,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaGithub className=" text-5xl lg:text-7xl text-grey-400" />
+          <div><center>GitHub</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(7)}
@@ -134,6 +185,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandCpp className=" text-5xl lg:text-7xl text-yellow-400" />
+          <div><center>C++</center></div>
         </motion.div>
         <motion.div
           variants={iconVariants(1)}
@@ -142,6 +194,7 @@ const Skills = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaJava className=" text-5xl lg:text-7xl text-blue-400" />
+          <div><center>Java</center></div>
         </motion.div>
       </motion.div>
     </div>
