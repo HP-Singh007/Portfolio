@@ -75,7 +75,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="p-10 lg:p-0 rounded-full border-8 border-orange-300 border-style: double"
+              className="p-8 lg:p-0 rounded-full lg:border-8 lg:border-orange-300 lg:border-style: double"
               src={profile}
               alt="profile"
               id="profileImg"
