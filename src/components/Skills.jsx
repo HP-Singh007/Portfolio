@@ -103,7 +103,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <IoLogoJavascript className=" text-5xl lg:text-7xl text-yellow-400" />
+          <center><IoLogoJavascript className=" text-5xl lg:text-7xl text-yellow-400" /></center>
           <div><center>JavaScript</center></div>
         </motion.div>
         <motion.div
@@ -121,7 +121,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNode className=" text-5xl lg:text-7xl text-green-400" />
+          <center><FaNode className=" text-5xl lg:text-7xl text-green-400" /></center>
           <div><center>NodeJS</center></div>
         </motion.div>
         <motion.div
@@ -130,7 +130,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiExpress className=" text-5xl lg:text-7xl text-grey-400" />
+          <center><SiExpress className=" text-5xl lg:text-7xl text-grey-400" /></center>
           <div><center>Express.js</center></div>
         </motion.div>
         <motion.div
@@ -139,7 +139,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className=" text-5xl lg:text-7xl text-green-400" />
+          <center><SiMongodb className=" text-5xl lg:text-7xl text-green-400" /></center>
           <div><center>Mongo DB</center></div>
         </motion.div>
         <motion.div
@@ -148,7 +148,7 @@ const Skills = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiPostman className=" text-5xl lg:text-7xl text-orange-400 bg-white rounded-full" />
+          <center><SiPostman className=" text-5xl lg:text-7xl text-orange-400 bg-white rounded-full" /></center>
           <div><center>Postman</center></div>
         </motion.div>
         <motion.div

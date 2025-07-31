@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile-1.jpg";
 import { HERO_CONTENT } from "../constants/index.jsx";
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
@@ -29,9 +29,9 @@ const Hero = () => {
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent"
             >
               <Typewriter words={['Full Stack Developer - MERN', 'Identity and Access Management','CyberSecurity']}
-              loop={5}
+              loop={15}
               cursor
-              cursorStyle='_'
+              cursorStyle='|'
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={2000}
@@ -70,12 +70,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full p-50 lg:w-1/3 lg:p-10">
-          <div className="flex justify-center">
+          <div className="flex justify-center;">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="p-10 lg:p-0 rounded-full"
+              className="p-10 lg:p-0 rounded-full border-8 border-orange-300 border-style: double"
               src={profile}
               alt="profile"
               id="profileImg"
